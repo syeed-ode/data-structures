@@ -1,6 +1,6 @@
 package com.syeedode.datastructures;
 
-import static com.syeedode.datastructures.strings.anagram.AnagramService.findAnagram;
+import static com.syeedode.datastructures.linkedlist.sublistmatcher.service.SubListExecutionService.executeSublistMatch;
 
 public class DataStructureApplication {
     public static void main(String [] args) {
@@ -13,6 +13,9 @@ public class DataStructureApplication {
 //        hasUniqChars("dfjhsidfilsfd");
 
         System.out.println("\r\n\r\n");
-        findAnagram();
+//        findAnagram();
+
+//        executeAffinity();
+        executeSublistMatch();
     }
 }

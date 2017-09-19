@@ -1,4 +1,4 @@
-package com.syeedode.datastructures.collection;
+package com.syeedode.datastructures.collection.syeedsset;
 
 /**
  * Data Structures
