@@ -1,6 +1,6 @@
 package com.syeedode.datastructures;
 
-import static com.syeedode.datastructures.linkedlist.sublistmatcher.service.SubListExecutionService.executeSublistMatch;
+import static com.syeedode.datastructures.collection.maps.affinity.service.AffinityExecutionService.executeAffinity;
 
 public class DataStructureApplication {
     public static void main(String [] args) {
@@ -15,7 +15,7 @@ public class DataStructureApplication {
         System.out.println("\r\n\r\n");
 //        findAnagram();
 
-//        executeAffinity();
-        executeSublistMatch();
+        executeAffinity();
+//        executeSublistMatch();
     }
 }
